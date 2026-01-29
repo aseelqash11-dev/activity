@@ -6,7 +6,7 @@ Goal: Replace repeated stats logic with reusable functions.
 cat_a = [1, 2, 3, 4, 5]
 cat_b = [10, 20, 30]
 
-
+#ff
 def calculate_stats(data):
     return {"mean": sum(data)/len(data), "max":max(data)}
 

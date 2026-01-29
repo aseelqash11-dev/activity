@@ -30,11 +30,7 @@ students = {
 
 
 #1)
-grade1 = students\
-.get("S001", {})\
-.get("courses", {})\
-.get("AI301", {})\
-.get("grade",0)
+grade1 = students["S001"]["courses"]["AI301"]["grade"]
 
 print(grade1)
 
@@ -79,8 +75,7 @@ for student in students.values():
         highest_GPA = gpa
         top_student = student["name"]
 
-print(top_student, highest_GPA)  # Alice Chen 91.3
-
+print(top_student, highest_GPA) 
 
 
 # TODO: Implement the tasks above using nested dict access.
